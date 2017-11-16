@@ -156,10 +156,10 @@ def main():
 
 if __name__ == '__main__':
     global result,memitem
-    #usagemessage  =   'Usage: check_d42_healthstat.py {-h for more detailed info}'
-    #if len(sys.argv) < 2 :
-    #  print usagemessage
-    #  sys.exit()
+    usagemessage  =   'Usage: check_d42_healthstat.py {-h for more detailed info}'
+    if len(sys.argv) < 2 :
+      print usagemessage
+      sys.exit()
     #
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', help='debug option, show output on the console')
