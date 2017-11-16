@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# -- Author:       github:blafkachel
+# -- Description:  Device42 Nagios healthcheck + performance metrics
+
 
 import sys
 import codecs
